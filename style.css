@@ -193,4 +193,7 @@ header {
     display: block;
     width: 20%;
   }
+  .menu-mobile i {
+    cursor: pointer;
+  }
 }
