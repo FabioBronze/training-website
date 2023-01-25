@@ -8,6 +8,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+.menu-mobile {
+  display: none;
+}
+
 .center {
   max-width: 1100px;
   margin: 0 auto;
@@ -173,5 +177,20 @@ header {
   .diferencial-single {
     width: 100%;
     margin-bottom: 20px;
+  }
+
+  .logo {
+    display: block;
+    width: 20%;
+    text-align: center;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu-mobile {
+    display: block;
+    width: 20%;
   }
 }
