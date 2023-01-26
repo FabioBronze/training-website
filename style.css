@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://css.gg/menu-cheese.css");
+@import url("https://css.gg/quote.css");
 
 * {
   padding: 0;
@@ -187,6 +188,11 @@ header {
   text-align: justify;
 }
 
+.conquista-single img {
+  max-width: 100%;
+  cursor: pointer;
+}
+
 .conquistas {
   background-color: #f8fbfe;
   padding: 20px 0;
@@ -201,6 +207,97 @@ header {
 
 .conquista-single h2 {
   font-size: 30px;
+}
+
+section.sobre-empreendedor {
+  padding: 40px 0;
+}
+
+.img-model {
+  width: 50%;
+}
+
+.img-model img {
+  max-width: 100%;
+}
+
+.sobre-empreendedor-content {
+  width: 50%;
+  padding: 0 50px;
+}
+
+.sobre-empreendedor-content h2 {
+  color: #124265;
+  margin-bottom: 20px;
+}
+
+.sobre-empreendedor-content p {
+  color: #444;
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+.depoimentos {
+  padding: 40px 0;
+}
+
+.depoimentos-chamada {
+  text-align: center;
+}
+
+.depoimentos-chamada h2 {
+  color: #124265;
+  text-transform: uppercase;
+}
+
+.depoimentos-chamada p {
+  margin: 30px 0;
+}
+
+.carrousel {
+  display: flex;
+}
+
+.carrousel-single {
+  width: 33.3%;
+  width: 31%;
+  margin-right: 2%;
+  text-align: center;
+}
+
+.carrousel-single p {
+  text-align: center;
+}
+
+.carrousel-single img {
+  max-width: 100%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.carrousel-single-box {
+  padding: 20px;
+  background-color: #f3f9fd;
+  border-radius: 10px;
+}
+
+.carrousel-single-box p {
+  text-align: justify;
+  font-style: italic;
+  color: #4b4b4b;
+  font-size: 14px;
+}
+
+.carrousel-single span {
+  color: #ccc;
+}
+
+footer {
+  text-align: center;
+  color: #124265;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -223,7 +320,56 @@ header {
     display: block;
     width: 20%;
   }
+
   .menu-mobile i {
     cursor: pointer;
+  }
+
+  .p1 {
+    display: none;
+  }
+
+  .sobre-empreendedor .center {
+    display: flex;
+    width: 100%;
+    text-align: center;
+  }
+
+  .sobre-empreendedor-content {
+    width: 100%;
+  }
+
+  .sobre-empreendedor-content p {
+    text-align: justify;
+  }
+
+  .img-model {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .depoimentos-chamada p {
+    text-align: justify;
+  }
+
+  .disp {
+    display: none;
+  }
+
+  .conquistas .conquista-single {
+    display: none;
+  }
+
+  .carrousel {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .carrousel-single {
+    width: 100%;
+  }
+
+  .carrousel-single-box {
+    margin: 10px;
   }
 }
